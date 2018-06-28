@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Teko|The+Girl+Next+Door|Tulpen+One|Amatic+SC|Advent+Pro|Six+Caps|Shadows+Into+Light+Two|Laila);
+
+body, table, form, input, td, th, p, textarea, select a {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: black;
+}
+
+body {
+    background-size: 100% 100%;
+    background-image: url("http://www.mrwallpaper.com/wallpapers/Joker-vs-Batman.jpg");
+}
+
+table.pane{
+    opacity: 0.8;
+}
+
+table{
+    opacity: 0.8;
+}
+
+img.icon-red{
+    content: url("http://img3.wikia.nocookie.net/__cb20120210074647/mspaintadventures/images/b/b5/Blood.png");
+}
+
+img.icon-blue{
+    content: url("http://www.iconsdb.com/icons/preview/green/batman-23-xxl.png");
+}
+
+img#jenkins-name-icon{
+    content: "Building Arkham City";
+    color: black;
+    display: none;
+}
+
+div#header{
+    background-color: transparent;
+    height: 60px;
+    margin-top: 5mm;
+    vertical-align: middle;
+}
+
+ul#breadcrumbs{
+    border: 0;
+    color: black;
+}
+
+div#breadcrumbBar, #footer-container, .top-sticker-inner{
+    background-color: transparent;
+}
+
+img#jenkins-head-icon{
+    content: url("http://img1.wikia.nocookie.net/__cb20131110212948/fictionalcrossover/images/c/ca/Batman_logo.png");
+    width: 120px;
+    height: 70px;
+    margin-bottom: 5mm;
+    margin-top: 5mm;
+}
+
+div#header:after{
+    content: "Building Arkham City";
+    color: red;
+    margin-left: 8cm;
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    z-index: 0;
+    margin-bottom: 1cm;
+}
+
+div#footer-container{
+    border: 0;
+    color: white;
+}
+
+form#disable-project{
+    background-color: transparent;
+}
+
+div.searchbox{
+    background-color: transparent;
+}
+
+img.icon-clock{
+    content: url("http://img1.wikia.nocookie.net/__cb20121013161239/batmanadventures/images/6/68/Batman_Logo.png");
+}
